@@ -1,0 +1,19 @@
+.seating {
+    display: flex;
+    flex-direction: column;
+  }
+  .row {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .seat {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 40px;
+  }
+  .seat.booked {
+    background-color: red;
+  }
